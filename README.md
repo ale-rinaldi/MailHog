@@ -1,5 +1,5 @@
 # This fork
-This is a fork which allows a local build, where the `github.com/mailhog/MailHog-Server` dependency has been replaced with a fork from the last master with https://github.com/mailhog/MailHog/pull/313 applied.
+This is a fork which allows a local build, where the `github.com/mailhog/MailHog-Server` dependency has been replaced with a fork from the last master with https://github.com/mailhog/MailHog/pull/313 applied, that sorts messages from the most recent one.
 
 A pre-build Docker image for this is available as `alerinaldi/mailhog-date-sort`.
 
