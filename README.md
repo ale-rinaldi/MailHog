@@ -1,5 +1,5 @@
 # This fork
-This is a fork which allows a local build, where the github.com/mailhog/MailHog-Server dependency has been replaced with a fork from the last master with https://github.com/mail$
+This is a fork which allows a local build, where the `github.com/mailhog/MailHog-Server` dependency has been replaced with a fork from the last master with https://github.com/mailhog/MailHog/pull/313 applied.
 
 A pre-build Docker image for this is available as `alerinaldi/mailhog-date-sort`.
 
@@ -11,7 +11,7 @@ A pre-build Docker image for this is available as `alerinaldi/mailhog-date-sort`
 - Clone this repository
 - Run `docker run -it --rm -v $(pwd):/mailhog -w /mailhog golang:1.18 go build .`
 
-========
+
 
 MailHog [ ![Download](https://img.shields.io/github/release/mailhog/MailHog.svg) ](https://github.com/mailhog/MailHog/releases/tag/v1.0.0) [![GoDoc](https://godoc.org/github.com/mailhog/MailHog?status.svg)](https://godoc.org/github.com/mailhog/MailHog) [![Build Status](https://travis-ci.org/mailhog/MailHog.svg?branch=master)](https://travis-ci.org/mailhog/MailHog)
 =========
